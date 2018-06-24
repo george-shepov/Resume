@@ -56,7 +56,7 @@ Director of Application Development, February 2017 - Present
 - .Provided guidance and ongoing reports to senior management.
 - .Managed Internal Infrastructure related to custom software solutions.
 
-Broadvox LLC / CloudRoute LLC, Cleveland, OH
+**Broadvox LLC / CloudRoute LLC, Cleveland, OH**
 
 Director of Application Development, September 2014 - February 2017 (Out of Business)
 
@@ -71,7 +71,7 @@ Director of Application Development, September 2014 - February 2017 (Out of Busi
 - .Acted as the main Service and Account administrator for the organization in respect to Microsoft Azure Public Cloud management and hybrid-cloud deployment for Broadvox.
 - .Acted as the product owner of BVOSS – Broadvox Operations Support System, the main overarching management system governing everything related to telephone network management of a large national VoIP backbone, including routing, rating, billing, customer service and integration with an ERP (NetSuite).
 
-Compellotech Consulting, Willoughby, OH
+**Compellotech Consulting, Willoughby, OH**
 
 Systems Consultant, Project Manager, September 2012 - September 2014 (Left for Broadvox)
 
@@ -81,7 +81,7 @@ Systems Consultant, Project Manager, September 2012 - September 2014 (Left for B
 - .Worked on site at a client for three months &quot;Ernst &amp; Young&quot; developing a Depreciation and Amortization engine for EY&#39;s LKE Division.
 - .Worked as a part of an agile team at E&amp;Y and Compellotech.
 
-Price for Profit, Mayfield Heights, OH
+**Price for Profit, Mayfield Heights, OH**
 
 Software Developer / Business Analyst, August 2010 - September 2012 (Left for Compellotech)
 
@@ -91,7 +91,7 @@ Software Developer / Business Analyst, August 2010 - September 2012 (Left for Co
 
 
 
-Cleveland Metropolitan School District, Cleveland, OH
+**Cleveland Metropolitan School District, Cleveland, OH**
 
 _Software Developer (Contract)_, February 2010 - July 2010 (Finished Contract)
 
@@ -99,7 +99,7 @@ _Software Developer (Contract)_, February 2010 - July 2010 (Finished Contract)
 - .Assisted with data warehouse implementation
 - .Created reports for management using T-SQL and SSRS
 
-ALCOA, Inc., Cleveland, OH
+**ALCOA, Inc., Cleveland, OH**
 
 _Software Developer_, April 2008 - February 2010 (Finished Contract)
 
@@ -114,7 +114,7 @@ DI is Alcoa&#39;s new management project tracking tool, introduced by Alcoa&#39;
 - .Responsible for providing management at all levels with ad-hoc reporting based on multiple data sources.
 - .Created technical documentation and conducted training.
 
-Litigation Management, Inc. Cleveland, OH
+**Litigation Management, Inc. Cleveland, OH*
 
 _Application Developer_, April 2006 - April 2008 (Left for long-term contract with Alcoa)
 
@@ -144,12 +144,12 @@ _Application Developer/ Systems Administrator (Contract)_, August 2005-October 2
 
 
 
-EDUCATION
+## EDUCATION
 
-_Masters of Business Administration (_ **MBA** _)_, _International__Management, May 2009               _ Cum Laude
+**Masters of Business Administration** (*MBA*)_, *International__Management*, May 2009              Cum Laude
 
 Cleveland State University, Cleveland, Ohio
 
-_Bachelors of Business Administration (BBA),_ **Information Systems** , _May 2005_                         Cum Laude
+**Bachelors of Business Administration** (*BBA*), *Information Systems* , _May 2005_            Cum Laude
 
 Cleveland State University, Cleveland, Ohio
