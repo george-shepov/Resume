@@ -41,7 +41,7 @@ Experience in designing, developing, and maintaining a wide variety of systems, 
 | Containers | Docker |
 
 
-**WORK EXPERIENCE**
+## WORK EXPERIENCE
 
 **Lodex Inc., Cleveland, OH**
 
@@ -114,7 +114,7 @@ DI is Alcoa&#39;s new management project tracking tool, introduced by Alcoa&#39;
 - .Responsible for providing management at all levels with ad-hoc reporting based on multiple data sources.
 - .Created technical documentation and conducted training.
 
-**Litigation Management, Inc. Cleveland, OH*
+**Litigation Management, Inc. Cleveland, OH**
 
 _Application Developer_, April 2006 - April 2008 (Left for long-term contract with Alcoa)
 
@@ -146,10 +146,10 @@ _Application Developer/ Systems Administrator (Contract)_, August 2005-October 2
 
 ## EDUCATION
 
-**Masters of Business Administration** (*MBA*)_, *International__Management*, May 2009              Cum Laude
+**Masters of Business Administration** (*MBA*), *International Management*, May 2009              Cum Laude
 
 Cleveland State University, Cleveland, Ohio
 
-**Bachelors of Business Administration** (*BBA*), *Information Systems* , _May 2005_            Cum Laude
+**Bachelors of Business Administration** (*BBA*), *Information Systems* , May 2005            Cum Laude
 
 Cleveland State University, Cleveland, Ohio
