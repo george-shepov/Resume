@@ -3,7 +3,7 @@
 Cleveland, OH, USA, Tel: 440-773-4642
 
 Email: [shepov@gmail.com](mailto:shepov@gmail.com) 
-LinkedIn: [https://linkedin.com/in/shepov.com]([http://Shepov.com/](https://linkedin.com/in/shepov.com))
+LinkedIn: [https://linkedin.com/in/shepov]([[http://Shepov/](https://linkedin.com/in/shepov)](https://linkedin.com/in/shepov))
 
 # SUMMARY OF QUALIFICATIONS
 
