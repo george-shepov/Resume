@@ -1,140 +1,81 @@
 # Giorgiy Shepov
 
-**Full Stack Application Developer | Business Analyst | Project Manager**
+**Senior Software Engineer | .NET, APIs, Data Platforms, AI & Automation**
 
-Cleveland, OH, USA | Tel: 440-773-4642 | Email: shepov@gmail.com | LinkedIn: [https://linkedin.com/in/shepov](https://linkedin.com/in/shepov)
-
----
-
-## SUMMARY OF QUALIFICATIONS
-
-Full Stack Application Developer with extensive Project Management and Business Analysis experience. Adept at leading development teams, managing projects, and analyzing business requirements to deliver user-centric solutions. Proven track record of success in diverse environments, including large corporations, SMBs, and startups.
+Richmond Heights, Ohio 44143  
+[440-601-8001](tel:+14406018001) | [gshepov@proton.me](mailto:gshepov@proton.me) | [LinkedIn](https://www.linkedin.com/in/giorgiy-shepov) | [GitHub](https://github.com/george-shepov) | [Portfolio](https://giorgiy-shepov.com/)
 
 ---
 
-## TECHNICAL SKILLS
+## Professional Summary
 
-- **Programming Languages:** C#, T-SQL, JavaScript, TypeScript
-- **Frameworks:** jQuery, Angular.js, Vue.js
-- **Databases:** SQL Server, Azure SQL
-- **Web Development:** ASP.NET Core MVC, Web API, WCF, SOAP, REST, NodeJS
-- **Software:** Visual Studio .NET (2003-2019), DevOps, Git, IIS, VS Code
-- **Operating Systems:** Windows, Mac OS X, Linux (Ubuntu)
-- **Methodologies:** Agile, Scrum, Kanban, Waterfall
-- **Cloud Services:** Azure, AWS
-- **Customer Service:** Large corporations, SMBs, startups
-- **Team Collaboration:** Multicultural teams
-- **Requirements Analysis:** User requirements to functional solutions
+Senior full-stack software engineer and technical leader with 20+ years of experience delivering enterprise applications, APIs, data platforms, integrations, and automation. Deep background in C#/.NET and SQL Server, with current hands-on work in ASP.NET Core, Python/FastAPI, TypeScript, Vue, PWAs, Azure, Docker, and AI-assisted workflows. Known for translating operational problems into maintainable software, modernizing legacy systems, improving test coverage and delivery pipelines, and leading distributed engineering teams.
 
----
+## Core Expertise
 
-## PROFESSIONAL EXPERIENCE
+- **Application Engineering:** C#, .NET, ASP.NET Core/MVC, Web API, REST, Windows services, JavaScript/TypeScript, Angular, Vue, Node.js
+- **Data & Integration:** SQL Server, PostgreSQL, T-SQL, ETL, SSIS/SSRS/SSAS, data modeling, reporting, SOAP/REST integrations
+- **Cloud & Delivery:** Azure, AWS Lambda, Docker, Azure DevOps, CI/CD, GitHub Actions, hosting, DNS, deployment, monitoring
+- **AI & Automation:** LLM APIs, prompt engineering, structured extraction, document workflows, local models/Ollama, Python/FastAPI
+- **Quality & Architecture:** Selenium, automated testing, modular architecture, security boundaries, auditability, performance tuning
+- **Leadership:** Technical direction, product ownership, Agile delivery, offshore teams, stakeholder communication, documentation
 
-### Lodex Inc., Cleveland, OH
-**Application Development and Technology Lead**  
-_February 2017 - Present_
+## Professional Experience
 
-- Led design and implementation of user-centric applications.
-- Managed SQL Server, ensuring performance and reliability.
-- Conducted business analysis and created user stories.
-- Implemented TDD practices for quality assurance.
-- Developed cloud-based services and optimized IT infrastructure.
+### Independent Software Development / Consulting
+**Senior Software Engineer** | Greater Cleveland, OH | **Jul 2023 - Present**
 
-### KAG Logistics, Canton, OH
-**Software Developer III**  
-_July 2021 - July 2023_
+- Design and build full-stack applications, data-processing systems, automation tools, and AI-assisted workflows from discovery and prototyping through deployment and iteration.
+- Built OneOf Listing Assistant, a phone-first offline-capable PWA using IndexedDB with an ASP.NET Core .NET 8 companion API for secure eBay Media and Inventory API publishing, listing diagnostics, and controlled optimization experiments.
+- Developed a multi-provider LLM chat arena with FastAPI and Vue/Vite, streaming responses from OpenAI, OpenRouter, Ollama, and OpenAI-compatible local model endpoints.
+- Created court-docket ingestion, change-detection, audit, querying, and visualization workflows for a dataset exceeding 20,000 records, emphasizing traceability and anomaly review.
+- Delivered additional offline-first PWAs and internal tools for interview preparation, file/photo organization, document generation, product intake, and business workflow automation.
 
-- Enhanced user portal TripFocus.
-- Updated APIs to new frameworks.
-- Led daily developer meetings for streamlined communication and accelerated development.
+### KAG Logistics
+**Software Developer III** | Canton, OH | **Jul 2021 - Jul 2023**
 
-### TEKsystems @ Harley-Davidson, Valleyview, OH
-**Contractor, Application Developer**  
-_January 2021 - June 2021_
+- Enhanced and maintained TripFocus, an enterprise transportation and logistics platform, while upgrading APIs and services to newer .NET framework versions.
+- Introduced Selenium-based automated regression testing and C# test utilities integrated with Azure DevOps CI pipelines, reducing regression-testing time by approximately 40%.
+- Improved application reliability, performance, and maintainability; co-managed Azure resources, subscriptions, and deployment infrastructure.
+- Led daily developer coordination meetings and worked across engineering and business teams to unblock delivery and clarify requirements.
 
-- Maintained and improved Talon, Harley-Davidson’s internal application.
-- Completed major release features, ensuring timely updates and enhancements.
+### TEKsystems / Harley-Davidson
+**Contract Application Developer** | Remote / Ohio | **Jan 2021 - Jun 2021**
 
-### IntelliCorp Records Inc., Beachwood, OH
-**Contractor, Application Developer**  
-_October 2019 - March 2020_
+- Maintained and enhanced the Talon dealer-support system using C#, Windows Forms, and SQL Server; delivered release features within an Agile team.
 
-- Implemented IIX SOAP API service, enhancing system integration capabilities.
-- Developed AWS Lambda Function for password management, improving security and efficiency.
+### IntelliCorp Records
+**Contract Application Developer** | Beachwood, OH | **Oct 2019 - Mar 2020**
 
-### Broadvox LLC / CloudRoute LLC, Cleveland, OH
-**Lead of Application Development**  
-_September 2014 - February 2017_
+- Developed a .NET service integrating the IIX SOAP API for motor-vehicle-record data and extracted credential handling into a reusable .NET Core AWS Lambda function.
 
-- Developed OSS systems using C#, ASP.NET MVC, Azure.
-- Led a team of 20, managing development and hybrid-cloud deployments.
-- Acted as the main contact for Microsoft Azure Public Cloud Services.
+### FeLUX / Lodex
+**Senior Software Engineer / Project Lead** | Cleveland, OH | **2017 - 2019**
 
-### Compellotech Consulting, Willoughby, OH
-**Systems Consultant, Project Manager**  
-_September 2012 - September 2014_
+- Led full-stack development of steel-trading and business portals using ASP.NET, Angular/Vue, APIs, and SQL; coordinated delivery, infrastructure, and Agile processes.
 
-- Developed SPA 'Blueprinter' with Angular.js.
-- Managed development projects for sales and operator portals.
-- Led Ernst & Young (EY) engagement on Like-Kind Exchange (LKE) project, improving processing performance from nearly 24 hours to 40 minutes.
+## Earlier Leadership & Engineering Experience
 
-### Price for Profit, Mayfield Heights, OH
-**Software Developer Analyst**  
-_August 2010 - September 2012_
+- **Broadvox / CloudRoute** — Director of Application Development / Product Owner | Cleveland, OH | 2014 - 2017
+- **Compellotech Consulting** — Project Manager / Software Developer | Willoughby, OH | 2012 - 2014
+- **Price for Profit** — Software Developer | Mayfield Heights, OH | Aug 2010 - Sep 2012
+- **Cleveland Metropolitan School District** — SQL Developer | Cleveland, OH | Mar 2010 - Aug 2010
+- **Alcoa** — Contract Software Developer | Independence, OH | Apr 2008 - Mar 2010
+- **Litigation Management, Inc.** — Application Developer | Mayfield Heights, OH | Apr 2006 - Apr 2008
+- **Flight Options / Bridgestone-Firestone** — Contract Web Application Developer | Northeast Ohio | Aug 2005 - Apr 2006
+- **North East Ohio Health Services** — Information Technology Specialist | Beachwood, OH | Aug 2003 - Aug 2005
 
-- Maintained financial web application, INSIGHT TO PROFIT.
-- Acted as Business Analyst, providing insights into client data.
+## Selected Portfolio Projects
 
-### Cleveland Metropolitan School District, Cleveland, OH
-**Software Developer (Contract)**  
-_February 2010 - July 2010_
+- **OneOf Listing Assistant:** Offline-first inventory intake and eBay publishing workflow; IndexedDB PWA, ASP.NET Core .NET 8 API, eBay Media/Inventory APIs, secure token boundary, analytics-driven listing optimization.
+- **GiOSS Chat Arena:** FastAPI + Vue/Vite application that aggregates streaming output across cloud and local LLM providers with provider discovery and fallback handling.
+- **Developer Interview Prep:** Installable offline PWA with service-worker caching, full-text search, filters, bookmarks, local notes, accessibility controls, and mobile layout.
+- **Court Docket Data Platform:** Scraping, normalization, change detection, auditability, querying, and visualization for 20,000+ docket records.
 
-- Performed short-term assignments using C#, ASP.NET, WCF, SQL.
+## Education & Publications
 
-### ALCOA, Inc., Cleveland, OH
-**Software Developer**  
-_April 2008 - February 2010_
+- **Master of Business Administration, International Management** — Cleveland State University, 2009
+- **Bachelor of Business Administration, Management Information Systems** — Cleveland State University, 2005
+- **Technical Author:** Author of three published technical books
 
-- Developed DI and HR Career Path web applications.
-
-### Litigation Management, Inc., Cleveland, OH
-**Application Developer**  
-_April 2006 - April 2008_
-
-- Developed and maintained the RATPI web service.
-
-### Flight Options LLC / FlexJet, Richmond Heights, OH
-**Web Applications Developer**  
-_October 2005 - April 2006_
-
-- Developed internal information system (CAMP Operations).
-
-### Bridgestone/Firestone North American Tire, LLC, Akron, OH
-**Application Developer (Contract)**  
-_August 2005 - October 2005_
-
-- Developed Mold Shipment Information System (MSIS).
-
----
-
-## EDUCATION
-
-**Masters of Business Administration (MBA), International Management**  
-Cleveland State University, Cleveland, OH - May 2009 (Cum Laude)
-
-**Bachelors of Business Administration (BBA), Information Systems**  
-Cleveland State University, Cleveland, OH - May 2005 (Cum Laude)
-
----
-
-## KEY ACHIEVEMENTS
-
-- Successfully led development projects from concept to deployment, ensuring high-quality deliverables and customer satisfaction.
-- Enhanced application performance and reliability through effective database management and optimization.
-- Improved team productivity and project timelines by implementing Agile and TDD practices.
-- Fostered strong relationships with stakeholders, translating business requirements into functional solutions.
-- Led Ernst & Young (EY) engagement on Like-Kind Exchange (LKE) project, improving processing performance from nearly 24 hours to 40 minutes.
-
----
-
-Giorgiy Shepov is a seasoned Full Stack Application Developer with robust project management and business analysis skills. His extensive experience across various industries and his proficiency in a wide array of technologies and methodologies make him a versatile and valuable professional in the field of application development and technology management.
+**Availability:** Full-time, contract, consulting, and product-development engagements.
