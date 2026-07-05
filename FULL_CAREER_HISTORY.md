@@ -2,23 +2,37 @@
 
 **Senior Software Engineer | .NET, APIs, Data Platforms, AI & Automation**
 
-This is the long-form career record supporting the concise two-page résumé. It preserves Giorgiy Shepov's complete verified technology history from 2003 to the present, including individual employers, dates, responsibilities, technologies, leadership scope, and representative accomplishments.
+This long-form record supports the concise résumé and distinguishes employee roles from contract, consulting, independent product, and client engagements.
 
-[Back to résumé overview](README.md)
+**Contact:** [gshepov@proton.me](mailto:gshepov@proton.me) · 440-601-8001 · Cleveland, Ohio
+
+[Back to interactive résumé](index.html)
 
 ---
 
-## Independent Software Development / Consulting
+## LODEX Software / Independent Consulting
 
-**Senior Software Engineer**  
-Greater Cleveland, Ohio | **July 2023 – Present**
+**Founder · Senior Software Engineer**  
+Greater Cleveland, Ohio | **October 2000 – Present (intermittent)**
+
+LODEX Software was established in October 2000. Work under LODEX has been intermittent and has often run alongside employee and contract engagements rather than representing one uninterrupted full-time position.
+
+### Current product and consulting work — July 2023 to present
 
 - Design and build full-stack applications, data-processing systems, automation tools, and AI-assisted workflows from discovery and prototyping through deployment and iteration.
-- Built **OneOf Listing Assistant**, a phone-first offline-capable PWA using IndexedDB with an ASP.NET Core .NET 8 companion API for secure eBay Media and Inventory API publishing, listing diagnostics, and controlled optimization experiments.
-- Developed **GiOSS Chat Arena**, a multi-provider LLM application using FastAPI and Vue/Vite that streams responses from OpenAI, OpenRouter, Ollama, and OpenAI-compatible local-model endpoints.
-- Created court-docket ingestion, normalization, change-detection, audit, querying, and visualization workflows for a dataset exceeding 20,000 records, emphasizing traceability and anomaly review.
-- Delivered additional offline-first PWAs and internal tools for interview preparation, file and photo organization, document generation, product intake, web scraping, and business workflow automation.
-- Work across C#, .NET, ASP.NET Core, SQL Server, PostgreSQL, Python, FastAPI, TypeScript, Vue, JavaScript, Docker, GitHub Actions, REST APIs, LLM APIs, prompt engineering, and local models.
+- Build and evolve **FieldKit**, an offline-first suite of reusable productivity, training, legal, media, privacy, field, and business applications.
+- Developed **Developer Interview Prep**, an installable PWA with searchable question decks, position analysis, bookmarks, local notes, import/export, backup/restore, and offline support.
+- Built **OneOf Listing Assistant**, a phone-first inventory and listing workflow using IndexedDB with an ASP.NET Core .NET 8 companion API for protected marketplace publishing.
+- Developed legal, tax, and public-record systems using FastAPI, Next.js, Vue, PostgreSQL, MongoDB, Qdrant, Docker, Nginx, RAG, and cloud/local LLM integrations.
+- Created docket ingestion, normalization, PDF acquisition, change detection, audit, querying, and visualization workflows for datasets exceeding 20,000 records.
+- Work across C#, .NET, ASP.NET Core, SQL Server, PostgreSQL, MongoDB, Python, FastAPI, TypeScript, Vue, Next.js, Go, Docker, GitHub Actions, REST APIs, LLM APIs, prompt engineering, and local models.
+
+### FeLUX client/product engagement — 2017 to 2019
+
+- Led full-stack development of steel-trading and business portals using ASP.NET, Angular, Vue, APIs, and SQL Server.
+- Translated operational and commercial requirements into application workflows, data models, user stories, and delivery plans.
+- Coordinated software development, infrastructure, deployment, and Agile delivery.
+- Combined architecture, product ownership, business analysis, technical leadership, and hands-on development.
 
 ## KAG Logistics
 
@@ -26,11 +40,11 @@ Greater Cleveland, Ohio | **July 2023 – Present**
 Canton, Ohio | **July 2021 – July 2023**
 
 - Enhanced and maintained **TripFocus**, an enterprise transportation and logistics platform.
-- Upgraded APIs and application services to newer .NET framework versions.
-- Introduced Selenium-based automated regression testing and reusable C# test utilities integrated with Azure DevOps CI pipelines, reducing regression-testing time by approximately 40%.
+- Upgraded APIs and services to newer .NET framework versions.
+- Introduced Selenium-based regression testing and reusable C# test utilities integrated with Azure DevOps CI, reducing regression-testing time by approximately 40%.
 - Improved application reliability, performance, maintainability, and deployment consistency.
 - Co-managed Azure resources, subscriptions, deployment infrastructure, and supporting environments.
-- Led daily developer coordination meetings and worked across engineering and business teams to remove blockers and clarify requirements.
+- Led daily developer coordination and worked across engineering and business teams to remove blockers and clarify requirements.
 
 ## TEKsystems / Harley-Davidson
 
@@ -38,8 +52,8 @@ Canton, Ohio | **July 2021 – July 2023**
 Remote / Ohio | **January 2021 – June 2021**
 
 - Maintained and enhanced the **Talon** dealer-support system using C#, Windows Forms, and SQL Server.
-- Delivered features for a major application release within an Agile development team.
-- Investigated defects, implemented business changes, and supported an established enterprise application with significant legacy code.
+- Delivered features for a major release within an Agile enterprise team.
+- Investigated defects and implemented business changes in a substantial legacy application.
 
 ## IntelliCorp Records
 
@@ -50,17 +64,6 @@ Beachwood, Ohio | **October 2019 – March 2020**
 - Extracted credential handling into a reusable .NET Core AWS Lambda function.
 - Improved integration boundaries, reuse, and security for background-screening workflows.
 
-## FeLUX / Lodex
-
-**Senior Software Engineer / Project Lead**  
-Cleveland, Ohio | **2017 – 2019**
-
-- Led full-stack development of steel-trading and business portals using ASP.NET, Angular, Vue, APIs, and SQL Server.
-- Translated operational and commercial requirements into application workflows, data models, user stories, and delivery plans.
-- Coordinated software development, infrastructure, deployment, and Agile delivery activities.
-- Managed database and application performance while supporting evolving product requirements.
-- Worked across technical leadership, product ownership, business analysis, architecture, and hands-on development.
-
 ## Broadvox / CloudRoute
 
 **Director of Application Development / Product Owner**  
@@ -68,21 +71,18 @@ Cleveland, Ohio | **September 2014 – February 2017**
 
 - Directed a cross-functional group of approximately 20 engineers, QA analysts, project staff, and network specialists.
 - Owned delivery and architecture of **COMPASS**, a cloud-based ERP and operational support platform.
-- Led development of OSS and business systems using C#, ASP.NET MVC, SQL Server, Azure, and related Microsoft technologies.
-- Coordinated product planning, requirements, architecture, releases, and stakeholder communication across sales, operations, engineering, and offshore development teams.
-- Led Azure and Microsoft 365 partner and tenant solutions, hybrid-cloud deployments, and supporting infrastructure.
-- Served as a principal technical and product contact for Microsoft Azure public-cloud services.
+- Led development using C#, ASP.NET MVC, SQL Server, Azure, and related Microsoft technologies.
+- Coordinated product planning, requirements, architecture, releases, stakeholder communication, hybrid-cloud deployments, and offshore development.
 
 ## Compellotech Consulting
 
-**Project Manager / Software Developer**  
+**Consultant · Project Manager · Software Developer**  
 Willoughby, Ohio | **September 2012 – September 2014**
 
 - Delivered consulting projects spanning project management, business analysis, architecture, application development, and deployment.
-- Built vendor-management systems, ASP.NET MVC web and mobile applications, and an AngularJS single-page application known as **Blueprinter**.
+- Built vendor-management systems, ASP.NET MVC web/mobile applications, the AngularJS **Blueprinter** SPA, smart-TV software, and business portals.
 - Developed a SQL Server and C# depreciation-processing engine for an Ernst & Young engagement, reducing processing time from nearly 24 hours to approximately 40 minutes.
-- Developed HTML5 smart-TV software and sales and operator portals.
-- Managed customer requirements, schedules, technical delivery, and communication across multiple concurrent engagements.
+- Managed requirements, schedules, technical delivery, and communication across concurrent engagements.
 
 ## Price for Profit
 
@@ -90,52 +90,42 @@ Willoughby, Ohio | **September 2012 – September 2014**
 Mayfield Heights, Ohio | **August 2010 – September 2012**
 
 - Enhanced an ASP.NET MVC, SQL Server, and SSAS pricing-analytics platform for B2B clients.
-- Developed data-analysis features, reporting capabilities, performance improvements, and business-driven application changes.
-- Worked directly with pricing consultants and client data to translate analytical requirements into software behavior.
-- Supported and enhanced the **Insight to Profit** application and related pricing workflows.
-- Combined software development with business analysis and data investigation.
+- Developed analysis features, reporting, performance improvements, and business-driven application changes.
+- Combined software engineering with business analysis and data investigation.
 
 ## Cleveland Metropolitan School District
 
-**SQL Developer**  
+**Contract SQL / Application Developer**  
 Cleveland, Ohio | **February 2010 – August 2010**
 
-- Developed SQL Server integrations, ETL processes, and database solutions supporting district reporting and operations.
-- Built and maintained SSIS packages and SSRS reports.
-- Performed database upgrades, query tuning, data validation, and performance improvements.
-- Supported short-term application and integration assignments using C#, ASP.NET, WCF, SQL Server, and related Microsoft technologies.
+- Developed SQL Server integrations, ETL processes, SSIS packages, SSRS reports, database upgrades, and performance improvements.
+- Supported application and integration assignments using C#, ASP.NET, WCF, SQL Server, and related Microsoft technologies.
 
 ## Alcoa
 
 **Contract Software Developer**  
 Independence, Ohio | **April 2008 – February 2010**
 
-- Built ASP.NET, C#, and SQL Server applications supporting executive management, human resources, global sales, contract review, and reporting.
-- Developed the **DI** executive initiative and project-tracking application.
-- Developed an **HR Career Path** application supporting employee-development workflows.
-- Built a smart-client application for global sales analysis.
-- Developed a contract-review application and management-reporting tools.
-- Worked directly with business stakeholders to model processes and convert operational requirements into maintainable applications.
+- Built ASP.NET, C#, and SQL Server applications for executive management, human resources, global sales, contract review, and reporting.
+- Developed executive initiative tracking, HR career planning, sales-analysis, contract-review, and management-reporting applications.
+- Worked directly with stakeholders to model processes and convert requirements into maintainable software.
 
 ## Litigation Management, Inc.
 
 **Application Developer**  
 Mayfield Heights, Ohio | **April 2006 – April 2008**
 
-- Developed and supported legal-record acquisition services, vendor integrations, reporting automation, and internal business applications.
-- Developed and maintained the **RATPI** web service used in legal-record workflows.
+- Developed legal-record acquisition services, vendor integrations, reporting automation, and internal business applications.
+- Developed and maintained the **RATPI** web service.
 - Built Windows and web applications using C#, VB.NET, VB6, ASP.NET, and SQL Server.
-- Automated reporting and data exchange with external vendors and service providers.
-- Supported production systems in a legal-technology environment requiring reliable processing and traceable data handling.
 
 ## Flight Options / Flexjet
 
 **Contract Web Application Developer**  
 Richmond Heights, Ohio | **October 2005 – April 2006**
 
-- Developed internal operations interfaces for the **CAMP Operations** information system.
+- Developed internal operations interfaces for **CAMP Operations**.
 - Built and enhanced ASP.NET, C#, VB.NET, JavaScript, SQL Server, and Crystal Reports components.
-- Implemented application enhancements, reporting, and data-layer functionality supporting aviation operations.
 
 ## Bridgestone / Firestone North American Tire
 
@@ -144,28 +134,25 @@ Akron, Ohio | **August 2005 – October 2005**
 
 - Developed the **Mold Shipment Information System (MSIS)**.
 - Built application and data-layer components using ASP.NET, C#/VB.NET, JavaScript, and SQL Server.
-- Delivered a focused manufacturing and logistics application engagement.
 
 ## North East Ohio Health Services
 
 **Information Technology Specialist**  
 Beachwood, Ohio | **August 2003 – August 2005**
 
-- Began in technical support and advanced into broader application-development and technical-management responsibilities.
-- Developed healthcare HR, community-outreach, fundraising, and reporting applications.
+- Progressed from technical support into broader application-development and technical-management responsibilities.
+- Developed healthcare HR, outreach, fundraising, and reporting applications.
 - Supported production systems, users, networks, databases, and business software.
-- Evaluated software solutions and translated organizational needs into practical technical implementations.
-- Built the foundation for a career combining software engineering, data, infrastructure, business analysis, and technical leadership.
 
 ---
 
 ## Career Scope
 
-- **23 years in technology:** 2003–present
-- **20+ years in professional software development:** 2005–present
-- **Leadership experience:** Technical direction, development management, product ownership, project management, Agile delivery, and distributed-team coordination
-- **Industries:** Healthcare, automotive, aviation, legal technology, manufacturing, education, pricing analytics, telecommunications, cloud services, background screening, transportation and logistics, steel trading, e-commerce, and AI-enabled software
-- **Core technology arc:** C#, .NET, ASP.NET, SQL Server, ETL and BI, enterprise integrations, Azure and AWS, JavaScript and TypeScript frameworks, Python/FastAPI, Docker, CI/CD, PWAs, LLM APIs, local models, and AI-assisted development
+- **25+ years building technology solutions:** LODEX founded October 2000
+- **20+ years in professional software development:** enterprise, contract, consulting, and product work
+- **Engagement models:** Employee, contract, consulting, independent product development, technical leadership, and project delivery
+- **Industries:** Healthcare, automotive, aviation, legal technology, manufacturing, education, pricing analytics, telecommunications, cloud services, background screening, logistics, steel trading, e-commerce, and AI-enabled software
+- **Core technology arc:** C#, .NET, ASP.NET, SQL Server, ETL and BI, enterprise integrations, Azure and AWS, JavaScript and TypeScript frameworks, Python/FastAPI, Go, Docker, CI/CD, PWAs, RAG, LLM APIs, and local models
 
 ## Education and Publications
 
