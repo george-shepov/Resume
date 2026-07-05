@@ -14,17 +14,14 @@
   };
 
   setTheme(savedTheme || (prefersLight ? 'light' : 'dark'));
-
-  themeToggle?.addEventListener('click', () => {
-    setTheme(root.dataset.theme === 'light' ? 'dark' : 'light');
-  });
+  themeToggle?.addEventListener('click', () => setTheme(root.dataset.theme === 'light' ? 'dark' : 'light'));
 
   const projectHeading = document.querySelector('#projects .project-heading > div:first-child');
   if (projectHeading) {
     projectHeading.innerHTML = `
       <p class="eyebrow">Selected systems</p>
-      <h2>Deployed products you can open and use</h2>
-      <p>These are not screenshots or code fragments. They are working systems covering legal AI, court-data engineering, offline software, and e-commerce automation.</p>
+      <h2>Software you can inspect and use</h2>
+      <p>FieldKit leads the portfolio. Broken production links are not presented as live; systems still being deployed are labeled clearly.</p>
     `;
   }
 
@@ -32,79 +29,76 @@
   if (filters) {
     filters.innerHTML = `
       <button class="filter active" type="button" data-filter="all">All</button>
-      <button class="filter" type="button" data-filter="live">Live systems</button>
-      <button class="filter" type="button" data-filter="data">Data &amp; AI</button>
+      <button class="filter" type="button" data-filter="live">Live</button>
       <button class="filter" type="button" data-filter="offline">Offline-first</button>
+      <button class="filter" type="button" data-filter="source">Source / deployment</button>
     `;
   }
 
   const projectGrid = document.getElementById('projectGrid');
   if (projectGrid) {
     projectGrid.innerHTML = `
-      <article class="project-card featured" data-tags="live data platform">
+      <article class="project-card featured" data-tags="live offline source">
         <div class="project-topline">
           <span class="project-number">01</span>
-          <span class="badge live">Deployed full-stack system</span>
-        </div>
-        <h3>Professional Legal &amp; Tax Assistant</h3>
-        <p class="project-description">A production-oriented legal and tax workspace for document ingestion, retrieval-augmented search, case management, multi-agent chat, document workflows, and controlled access.</p>
-        <ul class="tech-list" aria-label="Technologies">
-          <li>FastAPI</li><li>Next.js</li><li>PostgreSQL</li><li>MongoDB</li><li>Qdrant / RAG</li><li>Docker</li><li>Nginx</li>
-        </ul>
-        <p class="project-note"><strong>What it demonstrates:</strong> Product architecture, authenticated workflows, document processing, AI orchestration, multiple data stores, deployment automation, backups, health checks, and production operations. Access may require sign-in.</p>
-        <div class="card-actions">
-          <a class="button small primary" href="https://legal.giorgiy.org/" target="_blank" rel="noopener">Open live system ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card featured" data-tags="live data platform">
-        <div class="project-topline">
-          <span class="project-number">02</span>
-          <span class="badge live">Live court-data platform</span>
-        </div>
-        <h3>DIW — Docket Intelligence Workbench</h3>
-        <p class="project-description">A Cuyahoga County Common Pleas data platform built from the Cuyahoga CP Scraper: scheduled collection, PDF acquisition, normalization, change detection, case monitoring, API access, analytics, graph data, and a public workbench.</p>
-        <ul class="tech-list" aria-label="Technologies">
-          <li>Python</li><li>Playwright</li><li>FastAPI</li><li>Vue / Vite</li><li>PostgreSQL</li><li>MongoDB</li><li>Docker</li>
-        </ul>
-        <p class="project-note"><strong>What it demonstrates:</strong> Resilient scraping, scheduled jobs, auditability, large-dataset handling, data-quality review, containerized deployment, backups, monitoring, and turning raw public records into a usable application.</p>
-        <div class="card-actions">
-          <a class="button small primary" href="https://diw.giorgiy.org/" target="_blank" rel="noopener">Open live workbench ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card" data-tags="live offline platform">
-        <div class="project-topline">
-          <span class="project-number">03</span>
-          <span class="badge live">Live offline-first suite</span>
+          <span class="badge live">Primary portfolio platform</span>
         </div>
         <h3>FieldKit</h3>
-        <p class="project-description">A deployable offline-first software suite containing more than 30 independent tools and learning applications, served through a compact Go launcher and installable individually or as a complete kit.</p>
+        <p class="project-description">An offline-first application suite and launcher for productivity, training, legal, field, privacy, media, and business workflows.</p>
         <ul class="tech-list" aria-label="Technologies">
           <li>Go</li><li>Progressive Web Apps</li><li>Service Workers</li><li>JavaScript</li><li>Playwright</li><li>GitHub Pages</li>
         </ul>
-        <p class="project-note"><strong>Try it:</strong> Open the launcher, filter tools by airplane-mode or connected operation, launch individual apps, and install supported tools. Includes productivity, training, privacy, media, legal, and field-use applications.</p>
+        <p class="project-note"><strong>What it demonstrates:</strong> Reusable application modules, shared platform services, offline operation, installable tools, deployment, and a growing training lab.</p>
         <div class="card-actions">
           <a class="button small primary" href="https://george-shepov.github.io/FieldKit/" target="_blank" rel="noopener">Open FieldKit ↗</a>
           <a class="button small secondary" href="https://github.com/george-shepov/FieldKit" target="_blank" rel="noopener">View source ↗</a>
         </div>
       </article>
 
-      <article class="project-card" data-tags="live offline platform">
+      <article class="project-card featured" data-tags="live offline source">
         <div class="project-topline">
-          <span class="project-number">04</span>
-          <span class="badge live">Live commerce workflow</span>
+          <span class="project-number">02</span>
+          <span class="badge live">FieldKit Training Lab</span>
+        </div>
+        <h3>Developer Interview Prep</h3>
+        <p class="project-description">Searchable interview-question decks covering SQL, .NET, JavaScript, behavioral preparation, position analysis, bookmarks, local notes, backup/restore, and offline use.</p>
+        <ul class="tech-list" aria-label="Technologies">
+          <li>JavaScript</li><li>PWA</li><li>Service Worker</li><li>Local Storage</li><li>Responsive UI</li>
+        </ul>
+        <p class="project-note"><strong>FieldKit integration:</strong> Available as a Training Lab module with a full-screen standalone mode.</p>
+        <div class="card-actions">
+          <a class="button small primary" href="https://george-shepov.github.io/FieldKit/developer-interview-prep/" target="_blank" rel="noopener">Open in FieldKit ↗</a>
+          <a class="button small secondary" href="https://github.com/george-shepov/developer-interview-prep" target="_blank" rel="noopener">View source ↗</a>
+        </div>
+      </article>
+
+      <article class="project-card" data-tags="offline source">
+        <div class="project-topline">
+          <span class="project-number">03</span>
+          <span class="badge source">Public source</span>
         </div>
         <h3>OneOf Listing Assistant</h3>
-        <p class="project-description">A phone-first inventory and listing workflow for organizing product photos, preparing structured eBay listings, validating publishing readiness, and running controlled listing-optimization experiments.</p>
+        <p class="project-description">Phone-first inventory intake and marketplace-listing workflow for organizing product photos, preparing structured listings, validating publishing readiness, and running controlled optimization experiments.</p>
         <ul class="tech-list" aria-label="Technologies">
           <li>Offline PWA</li><li>IndexedDB</li><li>ASP.NET Core .NET 8</li><li>eBay APIs</li>
         </ul>
-        <p class="project-note"><strong>Demo scope:</strong> The public PWA runs without an account. Publishing is intentionally separated behind a protected API because eBay credentials must never be exposed in a static front end.</p>
+        <p class="project-note"><strong>Security boundary:</strong> Marketplace credentials and publishing operations remain behind a separately configured protected API.</p>
         <div class="card-actions">
-          <a class="button small primary" href="https://george-shepov.github.io/OneOf-Listing-Assistant/" target="_blank" rel="noopener">Open live PWA ↗</a>
           <a class="button small secondary" href="https://github.com/george-shepov/OneOf-Listing-Assistant" target="_blank" rel="noopener">View source ↗</a>
         </div>
+      </article>
+
+      <article class="project-card" data-tags="source">
+        <div class="project-topline">
+          <span class="project-number">04</span>
+          <span class="badge source">Production deployment in progress</span>
+        </div>
+        <h3>Professional Legal &amp; Tax Assistant</h3>
+        <p class="project-description">FastAPI and Next.js workspace for document ingestion, retrieval-augmented search, case management, document workflows, multi-agent assistance, and controlled access.</p>
+        <ul class="tech-list" aria-label="Technologies">
+          <li>FastAPI</li><li>Next.js</li><li>PostgreSQL</li><li>MongoDB</li><li>Qdrant / RAG</li><li>Docker</li><li>Nginx</li>
+        </ul>
+        <p class="project-note"><strong>Deployment target:</strong> legal.giorgiy.org on the LODEX Ubuntu VPS. The public link will be restored after the production health checks pass.</p>
       </article>
     `;
   }
@@ -113,8 +107,8 @@
   if (consultingExperience) {
     consultingExperience.innerHTML = `
       <ul>
-        <li>Design and build full-stack applications, data platforms, automation systems, and AI-assisted workflows from discovery through deployment.</li>
-        <li>Built and deployed Professional Legal &amp; Tax Assistant, DIW / Cuyahoga court-data systems, FieldKit, OneOf Listing Assistant, and additional internal tools.</li>
+        <li>Founded LODEX Software in October 2000 and have delivered independent product, consulting, and client work intermittently alongside contract and employee engagements.</li>
+        <li>Current work includes FieldKit, Developer Interview Prep, Professional Legal &amp; Tax Assistant, docket-data systems, OneOf Listing Assistant, and workflow automation.</li>
         <li>Work across .NET 8, ASP.NET Core, SQL Server, PostgreSQL, MongoDB, Python/FastAPI, Next.js, TypeScript, Vue, Go, Docker, GitHub Actions, and LLM APIs.</li>
       </ul>
     `;
@@ -122,7 +116,6 @@
 
   const filterButtons = [...document.querySelectorAll('.filter')];
   const projectCards = [...document.querySelectorAll('.project-card')];
-
   filterButtons.forEach((button) => {
     button.addEventListener('click', () => {
       const filter = button.dataset.filter || 'all';
@@ -135,13 +128,8 @@
   });
 
   const experienceItems = [...document.querySelectorAll('.experience-item')];
-  document.getElementById('expandAll')?.addEventListener('click', () => {
-    experienceItems.forEach((item) => { item.open = true; });
-  });
-
-  document.getElementById('collapseAll')?.addEventListener('click', () => {
-    experienceItems.forEach((item, index) => { item.open = index < 5; });
-  });
+  document.getElementById('expandAll')?.addEventListener('click', () => experienceItems.forEach((item) => { item.open = true; }));
+  document.getElementById('collapseAll')?.addEventListener('click', () => experienceItems.forEach((item, index) => { item.open = index < 5; }));
 
   const toast = document.getElementById('toast');
   let toastTimer;
