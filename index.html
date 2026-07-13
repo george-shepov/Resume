@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1220" />
-  <meta name="description" content="Interactive résumé and software portfolio for Giorgiy Shepov, Senior Software Engineer specializing in .NET, APIs, data platforms, AI, and automation." />
-  <meta property="og:title" content="Giorgiy Shepov | Senior Software Engineer" />
-  <meta property="og:description" content="25+ years building technology solutions and 20+ years delivering professional software across employee, contract, consulting, and product engagements." />
+  <meta name="theme-color" content="#020b08" />
+  <meta name="description" content="Interactive résumé and software systems portfolio for Giorgiy Shepov, Senior Software Engineer specializing in .NET, APIs, data platforms, AI, automation, and production delivery." />
+  <meta property="og:title" content="Giorgiy.org | Software Systems Portfolio" />
+  <meta property="og:description" content="Enter Giorgiy Shepov's software command center: live products, repositories, engineering history, and technical capabilities." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://george-shepov.github.io/Resume/" />
-  <title>Giorgiy Shepov | Senior Software Engineer</title>
+  <meta property="og:url" content="https://giorgiy.org/" />
+  <title>Giorgiy.org | Software Systems Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
   {
@@ -20,7 +20,7 @@
     "email": "mailto:gshepov@proton.me",
     "telephone": "+1-440-601-8001",
     "address": {"@type": "PostalAddress", "addressLocality": "Cleveland", "addressRegion": "OH", "addressCountry": "US"},
-    "url": "https://george-shepov.github.io/Resume/",
+    "url": "https://giorgiy.org/",
     "sameAs": [
       "https://www.linkedin.com/in/giorgiy-shepov",
       "https://github.com/george-shepov"
@@ -35,7 +35,9 @@
   <header class="site-header">
     <nav class="nav shell" aria-label="Primary navigation">
       <a class="brand" href="#top" aria-label="Giorgiy Shepov home">GS<span>.</span></a>
+      <div class="nav-status" aria-label="System status"><span class="status-dot"></span><span>giorgiy.org online</span></div>
       <div class="nav-links">
+        <a href="#systems">Systems</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
@@ -46,31 +48,109 @@
   </header>
 
   <main id="main">
-    <section id="top" class="hero shell">
-      <div class="hero-copy">
-        <p class="eyebrow">Senior Software Engineer · Technical Leader · Product Builder</p>
-        <h1>Giorgiy Shepov</h1>
-        <p class="headline">.NET, APIs, Data Platforms, AI &amp; Automation</p>
-        <p class="hero-summary">I turn operational problems into maintainable software—from enterprise applications and integrations to offline-first PWAs, data workflows, and AI-enabled products.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">Explore working projects</a>
-          <button class="button secondary" id="printResume" type="button">Print / save résumé</button>
-          <a class="button ghost" href="FULL_CAREER_HISTORY.md">Full career history</a>
-        </div>
-        <div class="contact-row" aria-label="Contact links">
-          <a href="mailto:gshepov@proton.me">gshepov@proton.me</a>
-          <a href="tel:+14406018001">440-601-8001</a>
-          <span>Cleveland, Ohio</span>
-        </div>
-      </div>
+    <section id="top" class="command-center" aria-labelledby="hero-title">
+      <div class="matrix-field" aria-hidden="true"></div>
+      <div class="command-grid shell">
+        <article class="terminal terminal-identity">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>identity@giorgiy.org</b></div>
+          <div class="terminal-body">
+            <p class="command"><span>$</span> whoami</p>
+            <p class="eyebrow">Senior Software Engineer · Technical Leader · Product Builder</p>
+            <h1 id="hero-title">Giorgiy<br />Shepov</h1>
+            <p class="headline">.NET · APIs · Data · AI · Automation</p>
+            <p class="hero-summary">I turn operational problems into maintainable software—from enterprise systems and integrations to offline-first PWAs, data workflows, and AI-enabled products.</p>
+            <div class="hero-actions">
+              <a class="button primary" href="#systems">Enter the system</a>
+              <button class="button secondary" id="printResume" type="button">Print / save résumé</button>
+              <a class="button ghost" href="FULL_CAREER_HISTORY.md">Career history</a>
+            </div>
+            <div class="contact-row" aria-label="Contact links">
+              <a href="mailto:gshepov@proton.me">gshepov@proton.me</a>
+              <a href="tel:+14406018001">440-601-8001</a>
+              <span>Cleveland, Ohio</span>
+            </div>
+          </div>
+        </article>
 
-      <aside class="hero-panel" aria-label="Career summary">
-        <div class="metric"><strong>25+</strong><span>years building technology solutions</span></div>
-        <div class="metric"><strong>20+</strong><span>years in professional software development</span></div>
-        <div class="metric"><strong>20</strong><span>people led in a cross-functional team</span></div>
-        <div class="metric"><strong>40%</strong><span>regression-testing time reduction</span></div>
-        <div class="availability"><span class="status-dot"></span> Open to remote full-time, contract, consulting, and product work</div>
-      </aside>
+        <figure class="fridge-core">
+          <img src="assets/fridge-workstation.svg" alt="A vintage refrigerator transformed into a high-performance illuminated computer workstation" />
+          <figcaption><span class="status-dot"></span> LODEX compute core · systems nominal</figcaption>
+        </figure>
+
+        <a class="terminal terminal-link terminal-fieldkit" href="https://fieldkit.giorgiy.org/" target="_blank" rel="noopener" aria-label="Open FieldKit">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>fieldkit</b></div>
+          <div class="terminal-body">
+            <p class="command"><span>$</span> launch fieldkit</p>
+            <h2>FieldKit</h2>
+            <p>Offline-first launcher for tools, training, records, productivity, and field workflows.</p>
+            <strong>OPEN DEMO ↗</strong>
+          </div>
+        </a>
+
+        <a class="terminal terminal-link terminal-legal" href="https://legal.giorgiy.org/" target="_blank" rel="noopener" aria-label="Open Professional Legal and Tax Assistant">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>legal-ai</b></div>
+          <div class="terminal-body">
+            <p class="command"><span>$</span> connect legal.giorgiy.org</p>
+            <h2>Legal &amp; Tax AI</h2>
+            <p>Document intelligence, RAG, case workflows, specialist teams, and controlled model access.</p>
+            <strong>OPEN SYSTEM ↗</strong>
+          </div>
+        </a>
+
+        <a class="terminal terminal-link terminal-vault" href="https://vault.giorgiy.org/" target="_blank" rel="noopener" aria-label="Open credential vault">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>vault</b></div>
+          <div class="terminal-body">
+            <p class="command"><span>$</span> vault status</p>
+            <h2>Credential Vault</h2>
+            <p>Isolated secret storage and user-scoped API-key infrastructure for deployed applications.</p>
+            <strong>SECURE LOGIN ↗</strong>
+          </div>
+        </a>
+
+        <a class="terminal terminal-link terminal-repos" href="https://repos.giorgiy.org/" target="_blank" rel="noopener" aria-label="Browse Giorgiy's repositories">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>repository-index</b></div>
+          <div class="terminal-body">
+            <p class="command"><span>$</span> ls ~/products</p>
+            <h2>Repository Matrix</h2>
+            <p>Browse source, deployments, experiments, and the lineage behind current products.</p>
+            <strong>BROWSE REPOS ↗</strong>
+          </div>
+        </a>
+
+        <a class="terminal terminal-link terminal-oneof" href="https://oneof.store/" target="_blank" rel="noopener" aria-label="Open OneOf Store">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>commerce-node</b></div>
+          <div class="terminal-body">
+            <p class="command"><span>$</span> deploy oneof.store</p>
+            <h2>OneOf Store</h2>
+            <p>Inventory, product intake, listing preparation, marketplace workflow, and commerce automation.</p>
+            <strong>VISIT STORE ↗</strong>
+          </div>
+        </a>
+
+        <a class="terminal terminal-link terminal-docket" href="https://github.com/george-shepov/docket-intelligence-workbench" target="_blank" rel="noopener" aria-label="Open Docket Intelligence Workbench source">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>docket-intelligence</b></div>
+          <div class="terminal-body">
+            <p class="command"><span>$</span> inspect docket --immutable</p>
+            <h2>Docket Workbench</h2>
+            <p>Court-record monitoring, snapshots, change detection, filing organization, timelines, and cited analysis.</p>
+            <strong>VIEW SOURCE ↗</strong>
+          </div>
+        </a>
+      </div>
+      <a class="scroll-cue" href="#systems">scroll to inspect <span>↓</span></a>
+    </section>
+
+    <section id="systems" class="system-strip" aria-label="Portfolio system index">
+      <div class="shell system-strip-inner">
+        <span class="system-label">ACTIVE NODES</span>
+        <a href="https://fieldkit.giorgiy.org/" target="_blank" rel="noopener">01 FieldKit</a>
+        <a href="https://legal.giorgiy.org/" target="_blank" rel="noopener">02 Legal AI</a>
+        <a href="https://vault.giorgiy.org/" target="_blank" rel="noopener">03 Vault</a>
+        <a href="https://repos.giorgiy.org/" target="_blank" rel="noopener">04 Repositories</a>
+        <a href="https://oneof.store/" target="_blank" rel="noopener">05 OneOf</a>
+        <a href="https://github.com/george-shepov/docket-intelligence-workbench" target="_blank" rel="noopener">06 Docket Workbench</a>
+        <a href="https://github.com/george-shepov" target="_blank" rel="noopener">07 GitHub</a>
+      </div>
     </section>
 
     <section class="section shell" aria-labelledby="about-title">
@@ -82,6 +162,13 @@
         <p class="lead">Senior full-stack software engineer and technical leader with experience spanning healthcare, aviation, automotive, legal technology, manufacturing, education, telecommunications, logistics, pricing analytics, e-commerce, and AI-enabled systems.</p>
         <p>Founded LODEX Software in October 2000 and have delivered independent work intermittently alongside employee, contract, and consulting engagements. My deepest background is C#/.NET and SQL Server; current work includes ASP.NET Core, Python/FastAPI, TypeScript, Vue, Next.js, Go, offline-first PWAs, Azure, Docker, GitHub Actions, RAG, and local/cloud LLMs.</p>
       </div>
+      <div class="metric-grid" aria-label="Career summary">
+        <div class="metric"><strong>23</strong><span>years working in technology</span></div>
+        <div class="metric"><strong>20+</strong><span>years in professional software development</span></div>
+        <div class="metric"><strong>20</strong><span>people led in a cross-functional team</span></div>
+        <div class="metric"><strong>40%</strong><span>regression-testing time reduction</span></div>
+      </div>
+      <p class="availability"><span class="status-dot"></span> Open to remote full-time, contract, consulting, and product work</p>
     </section>
 
     <section id="projects" class="section section-alt">
@@ -119,7 +206,7 @@
       <div class="shell">
         <div class="section-heading experience-heading">
           <div>
-            <p class="eyebrow">October 2000–present</p>
+            <p class="eyebrow">2003–present</p>
             <h2>Complete professional history</h2>
             <p>The timeline distinguishes employee roles from contract, consulting, and independent product work.</p>
           </div>
@@ -131,8 +218,8 @@
 
         <div class="timeline" id="timeline">
           <details class="experience-item" open>
-            <summary><span><strong>LODEX Software / Independent Consulting</strong><small>Founder · Senior Software Engineer · Greater Cleveland, OH</small></span><time>Oct 2000–Present*</time></summary>
-            <div class="experience-body"><ul><li>Independent product and client work performed intermittently alongside contract and employee engagements.</li><li>Current work includes FieldKit, Developer Interview Prep, legal and docket systems, OneOf Listing Assistant, and business workflow automation.</li></ul><p><small>*LODEX activity has been intermittent rather than one uninterrupted full-time position.</small></p></div>
+            <summary><span><strong>Independent Software Development / LODEX Software</strong><small>Senior Software Engineer · Greater Cleveland, OH</small></span><time>Jul 2023–Present</time></summary>
+            <div class="experience-body"><ul><li>Design and deliver full-stack applications, data-processing systems, automation tools, and AI-assisted workflows from discovery through deployment.</li><li>Build and operate Professional Legal &amp; Tax Assistant, Docket Intelligence Workbench, FieldKit, OneOf Listing Assistant, and multi-provider LLM collaboration tools.</li><li>Create GitHub-first Docker, VPS, domain, SSL, backup, monitoring, and release workflows.</li></ul></div>
           </details>
 
           <details class="experience-item" open>
@@ -226,7 +313,7 @@
     </section>
   </main>
 
-  <footer class="site-footer"><div class="shell"><span>© <span id="year"></span> Giorgiy Shepov</span><a href="#top">Back to top ↑</a></div></footer>
+  <footer class="site-footer"><div class="shell"><span>© <span id="year"></span> Giorgiy Shepov</span><span class="footer-status"><span class="status-dot"></span> built from working systems, not mockups</span><a href="#top">Back to top ↑</a></div></footer>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
 </body>
