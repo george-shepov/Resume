@@ -1,0 +1,61 @@
+name: Deploy source to VPS
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: canonical-vps-source-deployment
+  cancel-in-progress: true
+
+jobs:
+  deploy-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+
+      - name: Trust VPS host key
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Publish immutable source snapshot
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_DEPLOYMENT_DIR: ${{ secrets.VPS_DEPLOYMENT_DIR }}
+        run: |
+          set -euo pipefail
+          : "${VPS_HOST:?VPS_HOST is required}"
+          : "${VPS_USER:?VPS_USER is required}"
+          : "${VPS_DEPLOYMENT_DIR:?VPS_DEPLOYMENT_DIR is required}"
+
+          ssh_opts=(-o BatchMode=yes -o StrictHostKeyChecking=yes)
+          release="$VPS_DEPLOYMENT_DIR/releases/$GITHUB_SHA"
+
+          ssh "${ssh_opts[@]}" "$VPS_USER@$VPS_HOST" \
+            "mkdir -p '$VPS_DEPLOYMENT_DIR/releases'"
+
+          tar --exclude-vcs --exclude='./.github' -czf - . | \
+            ssh "${ssh_opts[@]}" "$VPS_USER@$VPS_HOST" \
+            "set -e; target='$release'; tmp='$VPS_DEPLOYMENT_DIR/.incoming-$GITHUB_SHA'; rm -rf \"\$tmp\" \"\$target\"; mkdir -p \"\$tmp\"; tar -xzf - -C \"\$tmp\"; mv \"\$tmp\" \"\$target\"; ln -sfn \"\$target\" '$VPS_DEPLOYMENT_DIR/current'"
+
+          ssh "${ssh_opts[@]}" "$VPS_USER@$VPS_HOST" \
+            "find '$VPS_DEPLOYMENT_DIR/releases' -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\\n' | sort -nr | tail -n +6 | cut -d' ' -f2- | xargs -r rm -rf"
